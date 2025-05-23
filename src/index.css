@@ -1,4 +1,93 @@
+/* index.css */
 
 body {
-  font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f6fa;
+  color: #2f3640;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px;
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 24px;
+  font-size: 22px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #dcdde1;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #273c75;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #192a56;
+}
+
+.card {
+  background-color: #f1f2f6;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border-left: 5px solid #44bd32;
+}
+
+.card.pending {
+  border-left-color: #e1b12c;
+}
+
+.card.canceled {
+  border-left-color: #e84118;
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: white;
+  margin-top: 8px;
+}
+
+.status.onaylandı {
+  background-color: #44bd32;
+}
+
+.status.beklemede {
+  background-color: #e1b12c;
+}
+
+.status.iptal {
+  background-color: #e84118;
 }
