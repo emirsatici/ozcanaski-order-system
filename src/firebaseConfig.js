@@ -9,7 +9,7 @@ const firebaseConfig = {
   projectId: "ozcan-aski",
   storageBucket: "ozcan-aski.firebasestorage.app",
   messagingSenderId: "906176009967",
-  appId: "1:906176009967:web:33e1b56ca5b55bed112d1a"
+  appId: "1:906176009967:web:827a212ecfc561f9112d1a"
 };
 
 const app = initializeApp(firebaseConfig);
